@@ -1,0 +1,207 @@
+body{
+  overflow-x: hidden;
+}
+#Profile{
+  padding-left: 15px;
+  background-color: rgba(194, 206, 206, 0.617);
+}
+.img1{
+    width: 60%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.row {
+    display: flex;
+    border: 2px;
+    align-items: center;
+  }
+  .column {
+    flex: 50%;
+    padding: 5px;
+    align-items: center;
+  }
+  h1{
+    font-family:Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    font-size: 30px;
+    color: #333;
+    /* margin: 0px; */
+  }
+  p{
+    /* text-align: center; */
+    font-size: 20px;
+    color: #333;
+    /* margin: 0px; */
+  }
+  #dwn-btn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #506251;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  table{
+    /* margin: 10px; */
+    padding: 20px;
+  }
+th{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+/* Skills Section */
+.skills-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(166, 185, 185);
+  border-radius: 10px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.skill-bar-container {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.skill-bar {
+  background-color: #4caf50;
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+  line-height: 20px;
+}
+
+/* Download Button */
+.download-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #4caf50;
+  border-radius: 25px;
+  background-color: white;
+  color: #4caf50;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.certificates-section {
+  padding: 20px;
+  background-color: rgba(194, 206, 206, 0.617);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.certificates-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.certificates-table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: center;
+}
+
+.certificates-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.certificates-table img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.certificates-table img:hover {
+  transform: scale(1.05);
+}
+.projects-section {
+  padding: 20px;
+  background-color: rgb(166, 185, 185);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projects-table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: center;
+}
+
+.projects-table th {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.projects-table th a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+.projects-table th a:hover {
+  background-color: #555;
+}
+
+.projects-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.projects-table img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.projects-table img:hover {
+  transform: scale(1.05);
+}
